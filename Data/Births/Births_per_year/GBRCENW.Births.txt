@@ -1,4 +1,4 @@
-England and Wales, Civilian National Population,  Births (1-year)	Last modified: 31 Jan 2025;  Methods Protocol: v6 (2017)
+England-and-Wales, Civilian National Population,  Births (1-year)	Last modified: 31 Jan 2025;  Methods Protocol: v6 (2017)
 
 Year          Female      Male     Total
 1841          249444    262714    512158

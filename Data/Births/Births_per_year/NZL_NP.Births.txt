@@ -1,4 +1,4 @@
-New Zealand,  Births (1-year)	Last modified: 06 Jun 2022;  Methods Protocol: v6 (2017)
+New-Zealand,  Births (1-year)	Last modified: 06 Jun 2022;  Methods Protocol: v6 (2017)
 
 Year          Female      Male     Total
 1948           23943     25206     49149

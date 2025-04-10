@@ -1,4 +1,4 @@
-United Kingdom,  Births (1-year)	Last modified: 03 Feb 2025;  Methods Protocol: v6 (2017)
+United-Kingdom,  Births (1-year)	Last modified: 03 Feb 2025;  Methods Protocol: v6 (2017)
 
 Year          Female      Male     Total
 1841          249444    262714    512158

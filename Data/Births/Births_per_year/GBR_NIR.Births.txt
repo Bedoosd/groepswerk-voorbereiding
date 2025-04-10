@@ -1,4 +1,4 @@
-Northern Ireland,  Births (1-year)	Last modified: 02 Feb 2025;  Methods Protocol: v6 (2017)
+Northern-Ireland,  Births (1-year)	Last modified: 02 Feb 2025;  Methods Protocol: v6 (2017)
 
 Year          Female      Male     Total
 1922           14433     15098     29531

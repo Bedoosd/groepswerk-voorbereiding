@@ -1,4 +1,4 @@
-East Germany,  Births (1-year)	Last modified: 03 Jun 2022;  Methods Protocol: v6 (2017)
+East-Germany,  Births (1-year)	Last modified: 03 Jun 2022;  Methods Protocol: v6 (2017)
 
 Year          Female      Male     Total
 1946           90496     98183    188679
