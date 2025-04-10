@@ -3,9 +3,10 @@ from pathlib import Path
 import os
 from datetime import datetime, timedelta
 cwd = os.getcwd()
-euro_path = Path(cwd) / "euro"
-euro_semi_finals = {}
+euro_path = Path(cwd).parent / "Data" / "euro" / "All_matches"
+world_matches = Path(cwd).parent /"Data"/"World"/ "matches_1930_2022.csv"
 
+euro_semi_finals = {}
 if euro_path.exists() and euro_path.is_dir():
     csv_files = list(euro_path.glob("*.csv"))
     if csv_files:
@@ -27,7 +28,7 @@ else:
 #         f.write(f"{team},{years}\n")
 
 world_semi_finals = {}
-with open("../Data/World/matches_1930_2022.csv", "r") as f:
+with open(world_matches, "r") as f:
     csv_file = csv.reader(f)
     next(csv_file)
     for row in csv_file:
@@ -57,9 +58,9 @@ for key, values in sorted_combi_semi_finals.items():
         date_9months = datetime_9months.strftime("%Y-%m-%d")
         combi_plus_9_months[key] = combi_plus_9_months.get(key, []) + [date_9months]
 
-with open ("combi_plus_266days.txt", "w") as f:
-    for team, dates in combi_plus_9_months.items():
-        f.write(f"{team}, {dates}\n")
+# with open ("combi_plus_266days.txt", "w") as f:
+#     for team, dates in combi_plus_9_months.items():
+#         f.write(f"{team}, {dates}\n")
 
 
 
