@@ -27,7 +27,7 @@ else:
 #         f.write(f"{team},{years}\n")
 
 world_semi_finals = {}
-with open("../World/matches_1930_2022.csv", "r") as f:
+with open("../Data/World/matches_1930_2022.csv", "r") as f:
     csv_file = csv.reader(f)
     next(csv_file)
     for row in csv_file:
